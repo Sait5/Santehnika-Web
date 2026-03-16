@@ -1,0 +1,110 @@
+body{
+    margin-left: -6px;
+    margin-right: -6px;
+}
+header{
+    background-color: #202122;
+    height: 500px;
+    width: 100%;
+    
+}
+.hedText{
+    display: flex; 
+    margin-left: auto; 
+    
+    
+}
+.hedText a{
+    text-align: left;
+    margin-left: 69px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 35px;
+}
+.cent{
+    display: flex;
+}
+.glav a{
+    transition: background-color 0.5s ease; 
+}
+.glav a:hover{
+    color: #BE5C29;
+}
+.naw{
+    height: 200px;
+    width: 80%;
+    background-color: #e1e1e1;
+    margin-left: auto;
+    margin-right: 10%;
+    position: relative;
+    margin-top: -100px;
+    border-radius: 50px;
+}
+.naw p{
+    text-align: center;
+    width: 77%;
+    margin-left: 29%;
+}
+
+
+.naw img{
+    margin-top: 10px;
+    margin-left: 45%;
+}
+.prehod{
+    border-radius: 0 30px 30px 0 ;
+    height: 70px;
+    width: 700px;
+    background-color: #202122;
+    margin-top: 70px;
+    display: flex;
+}
+.prehod a{
+    color: #fff;
+    transition: background-color 0.5s ease; 
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    height: 35px;
+    width: 134px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 25px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;   
+}
+.prehod a:hover{
+    background-color: #fff;
+    color: #000;
+    
+}
+
+
+.blok_tov{
+    width: 22%;
+    background-color: #ffffff;
+    transition: background-color 1s ease; 
+}
+.blok_tov img {
+    margin-top: 5px;
+    margin-left: 4%;
+    width: 65%;
+    height: 40%;
+}
+.blok_tov p{
+    color: #000000;
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+}
+.blok_tov a{
+    color: #000000;
+    padding-left: 32%;
+    font-size: 25px;
+    
+    text-decoration: none;
+}
+.blok_tov:hover{
+    box-shadow: 20px 5px 30px 10px rgba(0, 0, 255, .2);
+}
